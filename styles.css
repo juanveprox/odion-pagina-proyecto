@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+.seccion__1{
+    padding: .1px;
+    position: relative;
+    background-color: #1F2937;
+}
+
+.seccion__1__header{
+    padding-top: .5rem;
+    background-color: #1f2937a2;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logo__text{
+    margin: 0;
+    font-size: 1.3rem;
+
+    
+    background: linear-gradient(180deg, rgba(33,156,217,1) 35%, rgba(100,98,237,1) 49%, rgba(114,85,242,1) 59%, rgba(157,47,254,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.header__logo{
+    width: 4rem;
+    vertical-align: middle;
+}
+
+.header__container__links{
+    font-size: 1.2rem;
+    list-style: none;
+    display: flex;
+    gap:1rem;
+
+}
+
+.header__links__text{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+.header__links__text:hover{
+    color: #6883b9;
+    text-decoration: underline;
+}
+
+.seccion__1__main{
+    width: 80%;
+    margin: 8rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__info{
+    max-width: 50%;
+}
+
+.main__info__titulo{
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.main__info__parrafo{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #E5E7EB;
+    line-height:1.1;
+}
+
+.main__info__button{
+    cursor: pointer;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius:10px;
+    border: none;
+    background: #3882f6;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.main__info__button:hover{
+    background: #3881f663;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.main__container__img{
+    width: 45%;
+}
+
+.main__img{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.main__img:hover{
+    box-shadow: 0 0 10px rgba(49, 54, 124, 0.3);
+}
+
+.seccion__2{
+    padding: 2rem 0;
+    scroll-margin-top: 4.5rem;
+}
+
+.seccion__2__titulo{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.seccion__2__tipos{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.seccion__2__tipo{
+    width: 12rem;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.seccion__2__tipo:hover{
+    transform: scale(1.05);
+}
+
+.seccion__2__tipo:hover > .seccion__2__img{
+
+    background-color:  #3881f657;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.356);
+}
+
+.seccion__2__img{
+    border:5px solid #3882f6;
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 100%;
+
+    transition: background-color .5s ease-in-out , box-shadow .5s ease-in-out;
+}
+
+.seccion__2__tipo__titulo{
+    color: #1F2937;
+    font-size: 1.2rem;
+}
+
+
+.seccion__3{
+    background-color: #E5E7EB;
+    padding: 6rem 0;
+}
+
+.seccion__3__texto{
+    width: 75%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.seccion__3__subtexto{
+    width: 75%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin:1rem auto;
+    text-align: right;
+}
+
+.seccion__4{
+    padding: 2rem 0;
+}
+
+.seccion__4__carta{
+    background-color: #3882f6;
+    width: 75%;
+    margin: 3rem auto;
+    padding: 3rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .7rem;
+}
+
+.carta__text{
+    color:#E5E7EB ;
+}
+
+.carta__titulo{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.carta__parrafo{
+    margin: .5rem 0;
+    font-size:1.2rem;
+}
+
+
+.boton{
+    background-color: transparent;
+    border: 2px solid #E5E7EB;
+    border-radius: .8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #E5E7EB;
+    padding:.5rem 1rem;
+    cursor: pointer;
+}
+
+.boton:hover{
+    border-color: #8390aa;
+    color: #8390aa;
+    box-shadow: 0px 0px 10px  #8390aa3f;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 1rem 0;
+    text-align:center;
+    color: #E5E7EB;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
